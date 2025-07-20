@@ -1,17 +1,25 @@
-# wine-quality-ml-app
-# 🍷 Wine Quality Predictor
+# 🍷 Wine Quality Prediction (ML Project)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/YOUR-REPO-NAME/blob/main/wine-quality-predictor.ipynb)
+This project uses a supervised machine learning approach to predict wine quality scores based on physicochemical data. The model was trained using XGBoost and evaluated with metrics including a confusion matrix and class accuracy.
 
-A machine learning project that predicts wine quality using chemical properties of red wine. Built and deployed using **XGBoost** and **Gradio** in **Amazon SageMaker Studio Lab**.
+## 🔧 Tools & Libraries
+- Python, Pandas, NumPy, Scikit-learn
+- XGBoost, Seaborn, Matplotlib
+- Google Colab (runtime + visualization)
+- [UCI Wine Quality Dataset](https://archive.ics.uci.edu/ml/datasets/Wine+Quality)
 
----
+## 📊 Key Features
+- Cleaned and explored the dataset using visual and statistical techniques  
+- Trained multi-class XGBoost model to classify wine quality from 0 to 5  
+- Visualized performance with a confusion matrix and accuracy metrics  
+- Designed for reproducibility in Colab
 
-## 🚀 Demo
+## 🔗 Notebook Link
+[Run in Google Colab](https://colab.research.google.com/drive/1SxNWsl-DwtQqaV5UNARRWUCEiBU50vBl?usp=sharing)
 
-This project includes an interactive Gradio web app that allows users to input wine characteristics and receive a predicted wine quality rating (Low, Mid, High).
+## 📈 Sample Output
+*(Optional)*  
+If you upload your confusion matrix screenshot to the repo, you can include it like this:
 
-To run the app locally:
-```bash
-pip install -r requirements.txt
-python wine-quality-predictor.ipynb
+```markdown
+![Confusion Matrix](confusion_matrix.png)
