@@ -17,9 +17,3 @@ This project uses a supervised machine learning approach to predict wine quality
 ## 🔗 Notebook Link
 [Run in Google Colab](https://colab.research.google.com/drive/1SxNWsl-DwtQqaV5UNARRWUCEiBU50vBl?usp=sharing)
 
-## 📈 Sample Output
-*(Optional)*  
-If you upload your confusion matrix screenshot to the repo, you can include it like this:
-
-```markdown
-![Confusion Matrix](confusion_matrix.png)
